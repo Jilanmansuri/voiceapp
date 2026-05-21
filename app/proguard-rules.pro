@@ -1,0 +1,3 @@
+-keep class com.voicepay.alert.data.entity.** { *; }
+-keep class * extends androidx.room.RoomDatabase
+-dontwarn androidx.room.paging.**

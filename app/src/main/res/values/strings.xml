@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VoicePay Alert</string>
+    <string name="notification_listener_label">VoicePay Payment Listener</string>
+    <string name="channel_listener_name">Payment Listener Service</string>
+
+    <string name="splash_tagline">Voice alerts for UPI payments</string>
+    <string name="home_title">VoicePay Alert</string>
+    <string name="settings_title">Settings</string>
+    <string name="history_title">Payment History</string>
+
+    <string name="status_active">Listener Active</string>
+    <string name="status_inactive">Listener Inactive</string>
+    <string name="status_voice_on">Voice On</string>
+    <string name="status_voice_off">Voice Off</string>
+    <string name="status_speaking">Speaking…</string>
+    <string name="status_listener_active">Listening for payments</string>
+    <string name="status_listener_inactive">Enable notification access</string>
+
+    <string name="service_status">Service Status</string>
+    <string name="voice_status">Voice Status</string>
+    <string name="last_payment">Last Payment</string>
+    <string name="no_payments_yet">No payments detected yet</string>
+    <string name="amount_format">₹%1$s received</string>
+    <string name="sender_format">From: %1$s</string>
+    <string name="sender_unknown">Sender unknown</string>
+
+    <string name="btn_notification_access">Enable Notification Access</string>
+    <string name="btn_battery">Battery Optimization</string>
+    <string name="btn_settings">Settings</string>
+    <string name="btn_history">Payment History</string>
+
+    <string name="battery_unrestricted">Battery: Unrestricted</string>
+    <string name="battery_restricted">Battery: Restricted — tap to fix</string>
+    <string name="battery_hint">Disable battery optimization so VoicePay can run in the background.</string>
+
+    <string name="voice_enabled">Enable voice announcements</string>
+    <string name="speak_sender">Speak sender name</string>
+    <string name="language">Announcement language</string>
+    <string name="volume">Announcement volume</string>
+    <string name="test_voice">Test voice</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="auto_start">Auto start on boot</string>
+    <string name="keep_alive">Keep service alive (foreground)</string>
+    <string name="app_toggles">App-wise enable / disable</string>
+    <string name="custom_templates">Custom announcement templates</string>
+    <string name="edit_templates">Edit templates</string>
+    <string name="template_with_sender_label">With sender ({sender}, {amount}, {app})</string>
+    <string name="template_without_sender_label">Without sender ({amount}, {app})</string>
+
+    <string name="export_history">Export history</string>
+    <string name="export_subject">VoicePay Alert History</string>
+    <string name="clear_history">Clear history</string>
+    <string name="clear_history_title">Clear all history?</string>
+    <string name="clear_history_message">This cannot be undone.</string>
+    <string name="history_cleared">History cleared</string>
+    <string name="empty_history">No payment history yet</string>
+
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="clear">Clear</string>
+
+    <string name="setup_guide_title">Setup Guide</string>
+    <string name="setup_step_1">1. Tap \"Enable Notification Access\" and turn on VoicePay Alert.</string>
+    <string name="setup_step_2">2. Allow battery optimization exemption for reliable background alerts.</string>
+    <string name="setup_step_3">3. Use Settings to pick language and test voice.</string>
+</resources>
